@@ -1,0 +1,8 @@
+<div class="card" [class.sale-border]="item.isOnSale">
+    <img [src]="item.image" [alt]="item.title">
+    <h3>{{item.title}}</h3>
+    <p class="price">{{item.price | currency:"INR"}}</p>
+    <p *ngIf="item.isOnSale" class="sale-badge">on Sale!!</p>
+    <button [disabled]="!item.isOnSale" (click)="onBuy()">Buy Now</button>
+    <button (click)="onDelete()">Delete Item</button>
+</div>

@@ -1,0 +1,11 @@
+<div style="padding:20px;">
+    <h2>
+        Tech Store Dashboard
+    </h2>
+    <hr>
+
+    <app-product-card *ngFor="let prod of products" [item]="prod" (productClicked)="handleBuy($event)" (needDelete)="productDelete($event)">
+    
+    </app-product-card>
+    <button (click)="createNewProduct()">+ add test product</button>
+</div>

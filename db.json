@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "title": "Stainless Steel Water Bottle",
+      "price": 24.99,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
+      "isOnSale": false
+    },
+    {
+      "id": "4",
+      "title": "Leather Laptop Bag",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+      "isOnSale": false
+    },
+    {
+      "id": "5",
+      "title": "Smart Watch Fitness Tracker",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "isOnSale": true
+    },
+    {
+      "id": "6",
+      "title": "Ceramic Coffee Mug Set",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400",
+      "isOnSale": false
+    },
+    {
+      "id": "7",
+      "title": "Portable Phone Charger 10000mAh",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400",
+      "isOnSale": true
+    },
+    {
+      "id": "8",
+      "title": "Running Shoes - Men's",
+      "price": 119.99,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "isOnSale": false
+    },
+    {
+      "id": "10",
+      "title": "Desk Lamp LED Adjustable",
+      "price": 44.99,
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400",
+      "isOnSale": false
+    },
+    {
+      "id": "11",
+      "title": "Sunglasses Polarized UV Protection",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400",
+      "isOnSale": true
+    },
+    {
+      "id": "12",
+      "title": "Wireless Mouse Ergonomic",
+      "price": 27.99,
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400",
+      "isOnSale": false
+    },
+    {
+      "id": "13",
+      "title": "Canvas Tote Bag",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400",
+      "isOnSale": true
+    },
+    {
+      "id": "14",
+      "title": "Stainless Steel Cookware Set",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=400",
+      "isOnSale": false
+    },
+    {
+      "id": "15",
+      "title": "Bath Towel Set - 6 Piece",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1616627977339-2e65f6e4c0c1?w=400",
+      "isOnSale": true
+    },
+    {
+      "id": "16",
+      "title": "Digital Kitchen Scale",
+      "price": 22.99,
+      "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=400",
+      "isOnSale": false
+    },
+    {
+      "id": "17",
+      "title": "Phone Case Protective Cover",
+      "price": 15.99,
+      "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400",
+      "isOnSale": true
+    },
+    {
+      "id": "18",
+      "title": "Resistance Bands Set",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=400",
+      "isOnSale": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.sale-border {
+  border: 2px solid red;
+}
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: green;
+}
+.sale-badge {
+  color: red;
+  font-weight: bold;
+}

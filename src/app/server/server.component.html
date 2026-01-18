@@ -1,0 +1,45 @@
+
+<!-- <p> Server with ID {{serverId}} is {{getServerStatus()}}</p> -->
+
+<!-- property binding -->
+<!-- <button [disabled]="!allowNewServer">Add Server</button> -->
+<!-- style="color:{{tColor}}" this is also allowed. only thing is interpolation passes everything to string -->
+<!-- <p>{{serverCreateStats}}</p> -->
+<!-- property binding end -->
+
+
+
+<!-- ngmodel -->
+<!-- it'll be useful in echoing -->
+<!-- full duplex, streamed data -->
+<!-- code begin -->
+<!-- <label>Server Name</label>
+<input type="text" [(ngModel)]="serverName">
+<p>you typed: {{serverName}}</p> -->
+<!-- code end -->
+
+<!-- ALTERNATIVE -->
+<!--  ca add validations also, no need to import forms module, more control but more code and verbosity -->
+<!-- <input type="text" #servername value="{{serverName}}" (input)="setServerName(servername.value)" >
+<p>{{serverName}}</p> -->
+<!-- end of ATERNATIVE -->
+
+<!-- directives -->
+
+<!-- ngIf -->
+ <!-- <label>Server Name  </label>
+ <input type="text" [(ngModel)]="serverName">
+ <button (click)="onCreateServer()" [disabled]="serverName==''">Add Server</button>
+ <p *ngIf="serverCreated; else referenceName">Server was created!! Name is {{serverName}}</p><br>
+    <ng-template #referenceName>
+        <p> No server crated!!</p>
+    </ng-template> -->
+<!-- end of ngIf -->
+
+<!-- ngfor -->
+
+
+<!-- custom Pipe -->
+ <!-- ng generate pipe name -->
+  <p> {{"this is a very looong name" | shorten}}</p>
+  <p> {{"this is a very looong name" | shorten:5}}</p>
